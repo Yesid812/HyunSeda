@@ -1,9 +1,11 @@
-package co.com.HyunSeda.CrudProducts.market.access;
+package co.hyunseda.product.domain.service;
 
-public interface ICartRepository {
-    boolean save(Product newProduct);
+import co.hyunseda.product.domain.entity.Product;
 
-    List<Product> findAll();
+import java.util.List;
+
+public interface IProductService {
+    public List<Product> findAll();
     boolean edit(Long Id, Product newProduct);
     boolean delete(Long id);
     Product findById(Long id);
