@@ -32,8 +32,8 @@ public class Product implements Serializable {
 
     private double price;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "categoryID")
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "categoryId")
     private Category category;
 
 

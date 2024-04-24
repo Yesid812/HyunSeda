@@ -17,6 +17,18 @@ public class ProductService implements IProductService{
     public ProductService(IProductRepository productRepository) {
         this.productRepository = productRepository;
     }
+
+    @Override
+    public boolean save(Product product) {
+        try {
+            productRepository.save(product);
+            return true;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
     @Override
     public List<Product> findAll() {
         return productRepository.findAll();

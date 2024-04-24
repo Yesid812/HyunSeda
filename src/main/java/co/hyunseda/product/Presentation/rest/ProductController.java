@@ -26,6 +26,11 @@ public class ProductController {
         return productService.findAll();
     }
 
+    @RequestMapping(method = RequestMethod.POST, produces = "application/json")
+    @ResponseBody
+    public boolean create(@RequestBody Product product) {
+        return productService.save(product);
+    }
     @RequestMapping(value = "{id}", method = RequestMethod.GET, produces = "application/json")
     @ResponseBody
     @ApiOperation(value="Busca un producto por id")

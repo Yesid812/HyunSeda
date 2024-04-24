@@ -8,6 +8,8 @@ import java.util.Optional;
 
 @Service
 public interface IProductService {
+
+    boolean save(Product product);
     public List<Product> findAll();
     boolean edit(Long Id, Product newProduct);
     boolean delete(Long id);
