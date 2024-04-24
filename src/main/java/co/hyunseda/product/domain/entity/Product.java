@@ -10,7 +10,7 @@ import java.io.Serializable;
 
 
 @Entity
-@Table (name="product")
+@Table (name="Product")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
