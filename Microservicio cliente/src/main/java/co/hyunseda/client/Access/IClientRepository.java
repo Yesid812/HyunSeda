@@ -8,7 +8,7 @@ import java.util.UUID;
 
 
 @Repository
-public interface IClientRepository extends JpaRepository<Client, UUID> {
+public interface IClientRepository extends JpaRepository<Client, Long> {
 
     boolean existsByFirstName(String firstName);
 }

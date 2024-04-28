@@ -5,7 +5,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.UUID;
 
 @Service
 public interface IClientService {
@@ -16,7 +15,7 @@ public interface IClientService {
 
     List<Client> findAll();
 
-    boolean update(UUID id, Client client);
+    boolean update(Long id, Client client);
 
     boolean deleteById(Long id);
 }

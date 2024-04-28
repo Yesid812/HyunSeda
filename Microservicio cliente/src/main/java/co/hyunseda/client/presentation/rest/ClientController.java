@@ -10,7 +10,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.UUID;
 
 
 @RestController
@@ -49,7 +48,7 @@ public class ClientController {
        }
 
     @PutMapping("/{id}")
-    public ResponseEntity<?> updateClient(@PathVariable UUID id, @RequestBody Client client) {
+    public ResponseEntity<?> updateClient(@PathVariable Long id, @RequestBody Client client) {
         if (clientService.update(id, client)) {
             return ResponseEntity.ok().build();
         } else {

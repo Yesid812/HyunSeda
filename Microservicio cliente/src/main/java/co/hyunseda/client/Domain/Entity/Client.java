@@ -19,7 +19,7 @@ public class Client {
     private static  final long serialVersionUID = 1L;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private UUID clientId;
+    private Long clientId;
     private String firstName;
     private String lastName;
 
