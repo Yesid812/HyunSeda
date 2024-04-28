@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.UUID;
 
 @Service
 public class ClientService implements IClientService{
@@ -42,7 +43,7 @@ public class ClientService implements IClientService{
     }
 
     @Override
-    public boolean update(Long id, Client client) {
+    public boolean update(UUID id, Client client) {
         if (clientRepository.existsById(id)) {
             client.setClientId(id);
             clientRepository.save(client);
