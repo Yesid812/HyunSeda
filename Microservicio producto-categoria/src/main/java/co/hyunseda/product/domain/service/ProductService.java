@@ -1,5 +1,6 @@
 package co.hyunseda.product.domain.service;
 
+import aj.org.objectweb.asm.commons.TryCatchBlockSorter;
 import co.hyunseda.product.access.IProductRepository;
 import co.hyunseda.product.domain.entity.Product;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -72,5 +73,9 @@ public class ProductService implements IProductService{
     @Override
     public List<Product> searchProductByName(String name) {
         return productRepository.searchProductByName(name);
+    }
+    public List<Product> searchProductByCategory(String categoryName)
+    {
+        return productRepository.searchProductByCategory(categoryName);
     }
 }
