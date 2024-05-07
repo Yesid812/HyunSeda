@@ -1,0 +1,211 @@
+.bodyMain{
+    -fx-background-color: #FFFFFF;
+    -fx-arc-width: 840;
+    -fx-arc-height: 620;
+    -fx-font-family: "Roboto Light";
+}
+.categoryContainer{
+    -fx-background-color: rgba(227, 227, 227, 0.34);
+    -fx-background-radius: 15px;
+    -fx-cursor: hand;
+}
+.custom-textfield {
+    -fx-background-color: #FFFFFF; /* Color de fondo amarillo */
+    -fx-text-fill: #272727; /* Color del texto rojo */
+    -fx-font-size: 16px; /* Tamaño de la fuente */
+    -fx-border-radius: 13px;
+    -fx-border-image-insets: 0, 0;
+    -fx-border-color: #cccccc;
+    -fx-arc-height: 30px;
+    -fx-arc-width: 120px;
+}
+.login-textfields{
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #272727;
+    -fx-font-size: 14px;
+    -fx-border-radius: 8px;
+    -fx-border-image-insets: 0, 0;
+    -fx-border-color: #cccccc;
+}
+.lbl-new-products{
+    -fx-font-family: "Roboto Light";
+    -fx-font-size: 14px;
+    -fx-text-fill: #343434;
+}
+.lbl-title-products{
+    -fx-font-family: "Roboto Light";
+    -fx-font-size: 14px;
+    -fx-text-fill: #343434;
+    -fx-font-weight: bold;
+}
+.lbl-subtitle-products{
+    -fx-font-family: "Roboto Light";
+    -fx-font-size: 14px;
+    -fx-text-fill: #808080;
+}
+.cart-products-container{
+    -fx-background-color: white;
+    -fx-border-radius: 15px;
+    -fx-border-width: inherit ;
+    -fx-cursor: hand;
+    -fx-border-color: #c6c8ce ;
+}
+.login-container{
+    -fx-background-color: transparent;
+    -fx-border-radius: 15px;
+    -fx-border-width: inherit ;
+    -fx-cursor: hand;
+    -fx-padding: -1px;
+    -fx-border-color: #c6c8ce ;
+}
+.stock-control{
+    -fx-background-color: white;
+    -fx-background-radius: 15px;
+    -fx-border-radius: 10px;
+    -fx-cursor: hand;
+    -fx-border-color: #EBEBEB ;
+}
+.delete-control-cart{
+    -fx-background-color:transparent; /* Color de fondo del botón */
+    -fx-text-fill: black; /* Color del texto */
+    -fx-graphic: url("Images/basura.png");
+    -fx-font-size: 14px; /* Tamaño de la fuente */
+    -fx-padding: 8px 16px; /* Relleno del botón */
+    -fx-background-radius: 1px; /* Radio de la esquina del botón */
+    -fx-border-radius: 4px; /* Radio de la esquina del botón */
+    -fx-cursor: hand; /* Cursor de la mano al pasar por encima */
+}
+.stock-control-button{
+    -fx-background-color:transparent; /* Color de fondo del botón */
+    -fx-text-fill: black; /* Color del texto */
+    -fx-font-size: 14px; /* Tamaño de la fuente */
+    -fx-padding: 8px 16px; /* Relleno del botón */
+    -fx-background-radius: 1px; /* Radio de la esquina del botón */
+    -fx-border-radius: 4px; /* Radio de la esquina del botón */
+    -fx-cursor: hand; /* Cursor de la mano al pasar por encima */
+}
+.material-button {
+    -fx-background-color:transparent; /* Color de fondo del botón */
+    -fx-text-fill: black; /* Color del texto */
+    -fx-font-size: 14px; /* Tamaño de la fuente */
+    -fx-padding: 8px 16px; /* Relleno del botón */
+    -fx-background-radius: 1px; /* Radio de la esquina del botón */
+    -fx-border-radius: 4px; /* Radio de la esquina del botón */
+    -fx-cursor: hand; /* Cursor de la mano al pasar por encima */
+}
+
+.logo-hyun{
+    -fx-graphic: url('Images/logo-hyun.png');
+}
+.contact-button{
+    -fx-background-color: #4CAF50; /* Color de fondo del botón */
+    -fx-text-fill: black; /* Color del texto */
+    -fx-graphic: url('Images/whatsapp.png');
+    -fx-text-alignment: right;
+    -fx-background-size: 15px 18px;
+
+    -fx-font-weight: bold;
+    -fx-content-display: left;
+    -fx-font-size: 14px; /* Tamaño de la fuente */
+    -fx-background-radius: 10px; /* Radio de la esquina del botón */
+    -fx-border-radius: 4px; /* Radio de la esquina del botón */
+    -fx-cursor: hand; /* Cursor de la mano al pasar por encima */
+}
+.continuar-compra-button{
+    -fx-background-color: #FFD600; /* Color de fondo del botón */
+    -fx-text-fill: black; /* Color del texto */
+    -fx-text-alignment: right;
+    -fx-background-size: 15px 18px;
+
+    -fx-font-weight: bold;
+    -fx-content-display: left;
+    -fx-font-size: 14px; /* Tamaño de la fuente */
+    -fx-background-radius: 10px; /* Radio de la esquina del botón */
+    -fx-border-radius: 4px; /* Radio de la esquina del botón */
+    -fx-cursor: hand; /* Cursor de la mano al pasar por encima */
+}
+.contact-button .graphic {
+    -fx-alignment: baseline-left;
+    -fx-padding: 0 25px; /* Relleno entre la imagen y el texto */
+}
+.contact-button:hover{
+    -fx-background-color: #449D48; /* Cambio de color de fondo al pasar el cursor */
+    -fx-background-insets: 0, 0 1, 1 1, 1 0; /* Sombras */
+}
+.contact-button:pressed {
+    -fx-background-color: #449D48;
+}
+
+.material-button:hover {
+    -fx-background-color: #0175df; /* Cambio de color de fondo al pasar el cursor */
+    -fx-text-fill: #FFFFFF;
+    -fx-background-insets: 0, 0 1, 1 1, 1 0; /* Sombras */
+}
+
+.material-button:pressed {
+    -fx-background-color: #293948;
+}
+.productCard-container{
+    -fx-background-color: rgba(227, 227, 227, 0.34);
+    -fx-background-radius: 15px;
+    -fx-border-radius: 15px;
+    -fx-cursor: hand;
+}
+.right-button{
+    -fx-graphic: url("Images/derecha.png");
+    -fx-background-color: transparent;
+}
+.left-button{
+    -fx-graphic: url("Images/izquierda.png");
+    -fx-background-color: transparent;
+}
+.material-button:pressed .label {
+    -fx-translate-y: 1px;
+}
+
+.control-button{
+    -fx-background:trasparent;
+    -fx-display:inline-block;
+    -fx-graphic: url("Images/usuario.png");
+}
+.cart-button{
+    -fx-background:trasparent;
+    -fx-display:inline-block;
+    -fx-graphic: url("Images/carrito-de-compras.png");
+}
+.control-button:hover{
+    -fx-cursor: hand;
+    -fx-background-color: #d0d0d0; /* Cambio de color de fondo al pasar el cursor */
+    -fx-background-insets: 0, 0 1, 1 1, 1 0; /* Sombras */
+}
+.cart-button:hover{
+    -fx-cursor: hand;
+    -fx-background-color: #d0d0d0; /* Cambio de color de fondo al pasar el cursor */
+    -fx-background-insets: 0, 0 1, 1 1, 1 0; /* Sombras */
+}
+.control-button:pressed {
+    -fx-background-color: #cecece;
+}
+.cart-button:pressed {
+    -fx-background-color: #cecece;
+}
+.contact-button span{
+    -fx-end-margin: 10px;
+}
+.control-images{
+    -fx-background-size: cover;
+    -fx-interpolated-image-rendering: nearest-neighbor;
+}
+.image-container{
+    -fx-background-color: rgba(181, 36, 36, 0.34);
+    -fx-background-radius: 15px;
+    -fx-border-radius: 200px 200px 200px 200px;
+
+}
+.aretes{
+    -fx-border-radius: 200px 200px 200px 200px;
+}
+.product-container{
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: white;
+}

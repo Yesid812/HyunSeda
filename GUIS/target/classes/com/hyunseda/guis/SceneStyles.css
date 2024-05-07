@@ -1,0 +1,13 @@
+.bodyContainer{
+    font-family: sans-serif, "Roboto Light", "Poppins";
+    font-size: 14px;
+    -fx-text-alignment: center;
+}
+.image-container{
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+}
+.lbl-container{
+    -fx-padding-left:  120px;
+    -fx-font-weight: bold;
+}

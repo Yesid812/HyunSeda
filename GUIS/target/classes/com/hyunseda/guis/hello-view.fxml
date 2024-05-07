@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane id="body" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="3214.0" prefWidth="891.0" styleClass="bodyMain" stylesheets="@Styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hyunseda.guis.controllers.AllEventsController">
+   <children>
+      <TextField layoutX="136.0" layoutY="39.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="32.0" prefWidth="470.0" promptText="Buscar productos" styleClass="custom-textfield" />
+      <Button layoutX="744.0" layoutY="2.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="48.0" styleClass="material-button" text="—" />
+      <Button id="closeButton" fx:id="closeButton" layoutX="792.0" layoutY="2.0" mnemonicParsing="false" onAction="#onCloseButtonClick" prefHeight="36.0" prefWidth="48.0" styleClass="material-button" text="X" />
+      <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="67.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true" styleClass="logo-hyun">
+         <image>
+            <Image url="@Images/logo-hyun.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="19.0" layoutX="578.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/buscando-lupa.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="634.0" layoutY="39.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="25.0" styleClass="control-button" stylesheets="@Styles.css" />
+      <VBox layoutY="91.0" prefHeight="531.0" prefWidth="836.0" styleClass="fixed-button-container">
+         <children>
+            <Pane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ScrollPane hbarPolicy="NEVER" prefHeight="531.0" prefWidth="836.0">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="3122.0" prefWidth="838.0" styleClass="product-container">
+                           <children>
+                              <Pane id="categoryContainer" layoutX="40.0" layoutY="7.0" prefHeight="131.0" prefWidth="711.0" styleClass="categoryContainer">
+                                 <children>
+                                    <Pane layoutX="8.0" layoutY="2.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="127.0" prefWidth="100.0" stylesheets="@SceneStyles.css">
+                                       <children>
+                                          <Label layoutX="32.0" layoutY="100.0" prefHeight="17.0" prefWidth="79.0" styleClass="lbl-new-products" text="Aretes" />
+                                          <StackPane layoutX="11.0" layoutY="4.0" prefHeight="82.0" prefWidth="79.0" styleClass="stack-images">
+                                             <children>
+                                                <ImageView id="aretes-image" fitHeight="82.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true" styleClass="category-images">
+                                                   <image>
+                                                      <Image url="@Images/Aretes.png" />
+                                                   </image>
+                                                </ImageView>
+                                             </children>
+                                          </StackPane>
+                                       </children>
+                                    </Pane>
+                                    <Pane layoutX="121.0" layoutY="2.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="127.0" prefWidth="100.0" stylesheets="@SceneStyles.css">
+                                       <children>
+                                          <ImageView id="bodyContainer" fitHeight="93.0" fitWidth="90.0" layoutX="5.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" styleClass="image-container">
+                                             <image>
+                                                <Image url="@Images/Bufandas.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Label layoutX="21.0" layoutY="100.0" prefHeight="17.0" prefWidth="79.0" styleClass="lbl-new-products" text="Bufandas" />
+                                       </children>
+                                    </Pane>
+                                    <Pane layoutX="588.0" layoutY="2.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="127.0" prefWidth="100.0" stylesheets="@SceneStyles.css">
+                                       <children>
+                                          <ImageView id="bodyContainer" fitHeight="93.0" fitWidth="90.0" layoutX="5.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" styleClass="image-container">
+                                             <image>
+                                                <Image url="@Images/Ruanas.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Label layoutX="33.0" layoutY="100.0" prefHeight="17.0" prefWidth="79.0" styleClass="lbl-new-products" text="Ruanas" />
+                                       </children>
+                                    </Pane>
+                                    <Pane layoutX="244.0" layoutY="2.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="127.0" prefWidth="100.0" stylesheets="@SceneStyles.css">
+                                       <children>
+                                          <ImageView id="bodyContainer" fitHeight="93.0" fitWidth="90.0" layoutX="5.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" styleClass="image-container">
+                                             <image>
+                                                <Image url="@Images/chales.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Label layoutX="30.0" layoutY="100.0" prefHeight="17.0" prefWidth="79.0" styleClass="lbl-new-products" text="Chales" />
+                                       </children>
+                                    </Pane>
+                                    <Pane layoutX="353.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="127.0" prefWidth="100.0" stylesheets="@SceneStyles.css">
+                                       <children>
+                                          <ImageView id="bodyContainer" fitHeight="93.0" fitWidth="90.0" layoutX="5.0" pickOnBounds="true" preserveRatio="true" styleClass="image-container">
+                                             <image>
+                                                <Image url="@Images/Pañoletas.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Label layoutX="21.0" layoutY="100.0" prefHeight="17.0" prefWidth="79.0" styleClass="lbl-new-products" text="Pañoletas" />
+                                       </children>
+                                    </Pane>
+                                    <Pane layoutX="459.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="127.0" prefWidth="100.0" stylesheets="@SceneStyles.css">
+                                       <children>
+                                          <ImageView id="bodyContainer" fitHeight="93.0" fitWidth="90.0" layoutX="5.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" styleClass="image-container">
+                                             <image>
+                                                <Image url="@Images/Ponchos.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Label layoutX="28.0" layoutY="100.0" prefHeight="17.0" prefWidth="79.0" styleClass="lbl-new-products" text="Ponchos" />
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </Pane>
+                              <Pane layoutX="40.0" layoutY="165.0" prefHeight="352.0" prefWidth="736.0">
+                                 <effect>
+                                    <ColorAdjust />
+                                 </effect>
+                                 <children>
+                                    <HBox layoutY="35.0" prefHeight="313.0" prefWidth="736.0">
+                                       <children>
+                                          <ScrollPane prefHeight="313.0" prefWidth="910.0">
+                                            <content>
+                                              <AnchorPane layoutX="690.0" minHeight="0.0" minWidth="0.0" prefHeight="296.0" prefWidth="2000.0">
+                                                   <children>
+                                                      <HBox fx:id="newProducts" prefHeight="281.0" prefWidth="715.0" />
+                                                   </children>
+                                                </AnchorPane>
+                                            </content>
+                                          </ScrollPane>
+                                       </children>
+                                    </HBox>
+                                    <Label styleClass="lbl-new-products" text="Nuevos productos">
+                                       <font>
+                                          <Font name="Roboto Light" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </Pane>
+                              <Pane layoutX="40.0" layoutY="565.0" prefHeight="2556.0" prefWidth="740.0" styleClass="categoryContainer" stylesheets="@Styles.css">
+                                 <children>
+                                    <GridPane fx:id="gridPane" layoutX="1.0" layoutY="11.0" prefHeight="2543.0" prefWidth="738.0">
+                                      <columnConstraints>
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                      </columnConstraints>
+                                      <rowConstraints>
+                                        <RowConstraints maxHeight="841.0" minHeight="10.0" prefHeight="553.6" vgrow="SOMETIMES" />
+                                        <RowConstraints maxHeight="1190.0" minHeight="10.0" prefHeight="553.6" vgrow="SOMETIMES" />
+                                        <RowConstraints maxHeight="984.0" minHeight="10.0" prefHeight="553.6" vgrow="SOMETIMES" />
+                                          <RowConstraints maxHeight="984.0" minHeight="10.0" prefHeight="553.6" vgrow="SOMETIMES" />
+                                          <RowConstraints maxHeight="984.0" minHeight="10.0" prefHeight="553.6" vgrow="SOMETIMES" />
+                                          <RowConstraints maxHeight="984.0" minHeight="10.0" prefHeight="553.6" vgrow="SOMETIMES" />
+                                      </rowConstraints>
+                                    </GridPane>
+                                 </children>
+                              </Pane>
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </ScrollPane>
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+      <Button layoutX="690.0" layoutY="550.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="122.0" styleClass="contact-button" text="Contacto" textAlignment="RIGHT" />
+      <Button layoutX="674.0" layoutY="39.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="25.0" styleClass="cart-button" stylesheets="@Styles.css" />
+   </children>
+</Pane>

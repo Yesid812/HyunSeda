@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="81.0" prefWidth="569.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hyunseda.guis.CartProductContainer">
+   <children>
+      <Pane prefHeight="81.0" prefWidth="569.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fx:id="productImg" fitHeight="51.0" fitWidth="70.0" layoutX="14.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/Pañoletas.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="81.0" layoutY="24.0" styleClass="lbl-title-products" stylesheets="@Styles.css" text="Product - name " />
+            <Label layoutX="81.0" layoutY="49.0" styleClass="lbl-title-products" stylesheets="@Styles.css" text="product - price" />
+            <Pane layoutX="428.0" layoutY="26.0" prefHeight="33.0" prefWidth="127.0" styleClass="stock-control" stylesheets="@Styles.css">
+               <children>
+                  <Button layoutY="-3.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="48.0" styleClass="stock-control-button" stylesheets="@Styles.css" text="-" />
+                  <Button layoutX="40.0" layoutY="-3.0" mnemonicParsing="false" prefHeight="14.0" prefWidth="14.0" styleClass="stock-control-button" stylesheets="@Styles.css" text="1" />
+                  <Button layoutX="79.0" layoutY="-3.0" mnemonicParsing="false" prefHeight="14.0" prefWidth="14.0" styleClass="stock-control-button" stylesheets="@Styles.css" text="+" />
+               </children>
+            </Pane>
+            <Button layoutX="380.0" layoutY="25.0" mnemonicParsing="false" prefHeight="14.0" prefWidth="14.0" styleClass="delete-control-cart" stylesheets="@Styles.css" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
