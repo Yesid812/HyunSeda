@@ -5,207 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac2ed645-4e1e-41ae-9d58-7ddcc8878b34" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyunseda/guis/DTOS/CategoryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyunseda/guis/DTOS/ItemDetailsDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyunseda/guis/DTOS/OrderDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyunseda/guis/DTOS/ProductDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyunseda/guis/client/ProductClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hyunseda/guis/utils/ImageLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/hyunseda/guis/Show-aux-panel.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Microservicio pedido/src/main/java/co/hyunseda/Order/Configs/RestTemplateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Microservicio pedido/src/main/java/co/hyunseda/Order/DTO/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Microservicio pedido/src/main/java/co/hyunseda/Order/DTO/UserRoleDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Microservicio pedido/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Microservicio pedido/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Microservicio usuario/src/main/java/co/hyunseda/user/utils/Roles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/Library-Assistant-master.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/libs/boxable-1.5-RC.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/libs/commons-codec-1.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/libs/commons-csv-1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/libs/commons-lang3-3.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/libs/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/libs/derby.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/libs/derbyclient.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/libs/fontawesomefx-commons-8.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/libs/fontawesomefx-fontawesome-4.7.0-5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/libs/fontbox-2.0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/libs/gson-2.8.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/libs/guava-21.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/libs/javax.mail-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/libs/jfoenix-8.0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/libs/log4j-api-2.11.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/libs/log4j-core-2.11.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/libs/pdfbox-2.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/libs/slf4j-api-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/libs/slf4j-simple-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/manifest.mf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/nbproject/UPDATED.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/nbproject/build-impl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/nbproject/configs/Run_as_WebStart.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/nbproject/configs/Run_in_Browser.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/nbproject/genfiles.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/nbproject/jfx-impl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/nbproject/jfx-impl_backup.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/nbproject/jfx-impl_backup_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/nbproject/jfx-impl_backup_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/nbproject/private/configs/Run_as_WebStart.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/nbproject/private/configs/Run_in_Browser.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/nbproject/private/private.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/nbproject/private/private.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/nbproject/private/retriever/catalog.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/nbproject/private/retriever/www.oracle.com/technetwork/java/javase/overview/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/nbproject/project.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/nbproject/project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Library-Assistant-master/library/assistant/ui/about/about.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Library-Assistant-master/library/assistant/ui/addbook/add_book.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Library-Assistant-master/library/assistant/ui/addmember/member_add.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Library-Assistant-master/library/assistant/ui/icons/add_book.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Library-Assistant-master/library/assistant/ui/icons/add_mem.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Library-Assistant-master/library/assistant/ui/icons/book_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Library-Assistant-master/library/assistant/ui/icons/book_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Library-Assistant-master/library/assistant/ui/icons/issue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Library-Assistant-master/library/assistant/ui/icons/issued.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Library-Assistant-master/library/assistant/ui/icons/list_book.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Library-Assistant-master/library/assistant/ui/icons/list_mem.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Library-Assistant-master/library/assistant/ui/icons/member.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Library-Assistant-master/library/assistant/ui/icons/renew.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Library-Assistant-master/library/assistant/ui/icons/return.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Library-Assistant-master/library/assistant/ui/icons/search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Library-Assistant-master/library/assistant/ui/icons/settings.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Library-Assistant-master/library/assistant/ui/issuedlist/issued_list.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Library-Assistant-master/library/assistant/ui/listbook/book_list.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Library-Assistant-master/library/assistant/ui/listmember/member_list.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Library-Assistant-master/library/assistant/ui/login/login.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Library-Assistant-master/library/assistant/ui/mail/test_mail.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Library-Assistant-master/library/assistant/ui/main/main.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Library-Assistant-master/library/assistant/ui/main/toolbar/toolbar.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Library-Assistant-master/library/assistant/ui/notifoverdue/emailsender/email_sender.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Library-Assistant-master/library/assistant/ui/notifoverdue/overdue_notification.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Library-Assistant-master/library/assistant/ui/settings/settings.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Library-Assistant-master/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Library-Assistant-master/resources/dark-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Library-Assistant-master/resources/database/tables.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Library-Assistant-master/resources/gc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Library-Assistant-master/resources/icon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Library-Assistant-master/resources/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Library-Assistant-master/resources/mail_content.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/alert/AlertMaker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/data/callback/GenericCallback.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/data/model/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/data/model/MailServerInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/data/model/Member.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/database/DataHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/database/DatabaseHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/database/export/DatabaseExporter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/email/EmailUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/encryption/CipherSpec.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/encryption/EncryptionUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/exceptions/DefaultExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/exceptions/ExceptionUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/export/pdf/ListToPDF.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/about/AboutController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/about/about.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/addbook/BookAddController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/addbook/LibraryAssistant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/addbook/add_book.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/addmember/MemberAddController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/addmember/MemberAddLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/addmember/member_add.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/callback/BookReturnCallback.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/icons/add_book.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/icons/add_mem.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/icons/book_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/icons/book_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/icons/issue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/icons/issued.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/icons/list_book.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/icons/list_mem.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/icons/member.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/icons/renew.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/icons/return.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/icons/search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/icons/settings.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/issuedlist/IssuedListController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/issuedlist/IssuedListLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/issuedlist/issued_list.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/listbook/BookListController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/listbook/BookListLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/listbook/book_list.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/listmember/MemberListController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/listmember/MemberListLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/listmember/member_list.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/login/LoginController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/login/login.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/mail/TestMailController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/mail/test_mail.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/main/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/main/MainController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/main/main.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/main/toolbar/ToolbarController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/main/toolbar/toolbar.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/notifoverdue/NotificationItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/notifoverdue/OverdueNotificationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/notifoverdue/OverdueNotificationLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/notifoverdue/emailsender/EmailSenderController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/notifoverdue/emailsender/email_sender.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/notifoverdue/overdue_notification.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/settings/Preferences.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/settings/SettingsController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/settings/SettingsLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/ui/settings/settings.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/library/assistant/util/LibraryAssistantUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/resources/dark-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/resources/database/tables.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/resources/gc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/resources/icon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/resources/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/resources/mail_content.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/store/key.spec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio pedido/src/main/java/co/hyunseda/Order/Access/IOrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Microservicio pedido/src/main/java/co/hyunseda/Order/Access/IOrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio pedido/src/main/java/co/hyunseda/Order/Domain/Entity/ItemDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Microservicio pedido/src/main/java/co/hyunseda/Order/Domain/Entity/ItemDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio pedido/src/main/java/co/hyunseda/Order/Domain/Entity/ItemDetailsPk.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Microservicio pedido/src/main/java/co/hyunseda/Order/Domain/Entity/ItemDetailsPk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio pedido/src/main/java/co/hyunseda/Order/Domain/Entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Microservicio pedido/src/main/java/co/hyunseda/Order/Domain/Entity/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio pedido/src/main/java/co/hyunseda/Order/Domain/Service/IOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Microservicio pedido/src/main/java/co/hyunseda/Order/Domain/Service/IOrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio pedido/src/main/java/co/hyunseda/Order/Domain/Service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Microservicio pedido/src/main/java/co/hyunseda/Order/Domain/Service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio pedido/src/main/java/co/hyunseda/Order/Domain/State/Context/IOrderState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Microservicio pedido/src/main/java/co/hyunseda/Order/State/Context/IOrderState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio pedido/src/main/java/co/hyunseda/Order/Domain/State/Context/OrderStateFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Microservicio pedido/src/main/java/co/hyunseda/Order/State/Context/OrderStateFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio pedido/src/main/java/co/hyunseda/Order/Domain/State/States/CancelledState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Microservicio pedido/src/main/java/co/hyunseda/Order/State/States/CancelledState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio pedido/src/main/java/co/hyunseda/Order/Domain/State/States/CompletedState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Microservicio pedido/src/main/java/co/hyunseda/Order/State/States/CompletedState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio pedido/src/main/java/co/hyunseda/Order/Domain/State/States/FailedState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Microservicio pedido/src/main/java/co/hyunseda/Order/State/States/FailedState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio pedido/src/main/java/co/hyunseda/Order/Domain/State/States/PendingState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Microservicio pedido/src/main/java/co/hyunseda/Order/State/States/PendingState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio pedido/src/main/java/co/hyunseda/Order/Domain/State/States/ProcessingState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Microservicio pedido/src/main/java/co/hyunseda/Order/State/States/ProcessingState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio pedido/src/main/java/co/hyunseda/Order/presentation/rest/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Microservicio pedido/src/main/java/co/hyunseda/Order/presentation/rest/OrderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio pedido/src/main/java/co/hyunseda/Order/presentation/rest/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Microservicio pedido/src/main/java/co/hyunseda/Order/presentation/rest/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio pedido/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Microservicio pedido/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio producto-categoria/src/main/java/co/hyunseda/product/Presentation/rest/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Microservicio producto-categoria/src/main/java/co/hyunseda/product/Presentation/rest/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio producto-categoria/src/main/java/co/hyunseda/product/domain/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Microservicio producto-categoria/src/main/java/co/hyunseda/product/domain/entity/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio producto-categoria/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Microservicio producto-categoria/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio producto-categoria/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Microservicio producto-categoria/src/main/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio usuario/src/main/java/co/hyunseda/user/access/IRoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Microservicio usuario/src/main/java/co/hyunseda/user/access/IRoleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio usuario/src/main/java/co/hyunseda/user/access/IUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Microservicio usuario/src/main/java/co/hyunseda/user/access/IUserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio usuario/src/main/java/co/hyunseda/user/access/IUserRoleRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio usuario/src/main/java/co/hyunseda/user/domain/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Microservicio usuario/src/main/java/co/hyunseda/user/domain/entity/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio usuario/src/main/java/co/hyunseda/user/domain/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Microservicio usuario/src/main/java/co/hyunseda/user/domain/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio usuario/src/main/java/co/hyunseda/user/domain/entity/UserRole.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio usuario/src/main/java/co/hyunseda/user/domain/entity/UserRolePk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio usuario/src/main/java/co/hyunseda/user/domain/service/IRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Microservicio usuario/src/main/java/co/hyunseda/user/domain/service/IRoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio usuario/src/main/java/co/hyunseda/user/domain/service/IUserRoleService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio usuario/src/main/java/co/hyunseda/user/domain/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Microservicio usuario/src/main/java/co/hyunseda/user/domain/service/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio usuario/src/main/java/co/hyunseda/user/domain/service/UserRoleServiceDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Microservicio usuario/src/main/java/co/hyunseda/user/domain/service/UserRoleServiceDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio usuario/src/main/java/co/hyunseda/user/presentation/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Microservicio usuario/src/main/java/co/hyunseda/user/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio usuario/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Microservicio usuario/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio usuario/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Microservicio usuario/src/main/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Microservicio usuario/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Microservicio usuario/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Microservicio pedido/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Microservicio usuario/.idea/sqldialects.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,27 +44,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;micro&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Equipo/Desktop/HyunSeda/GUIS/src/main/resources/com/hyunseda/guis/Images&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.HelloApplication.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Equipo/Desktop/HyunSeda/GUIS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Equipo\Desktop\HyunSeda\GUIS\src\main\resources\com\hyunseda\guis\Images" />
@@ -316,6 +119,8 @@
       <workItem from="1714977953909" duration="8788000" />
       <workItem from="1715006375680" duration="12551000" />
       <workItem from="1715019361949" duration="12322000" />
+      <workItem from="1715178763957" duration="12000" />
+      <workItem from="1715179234451" duration="32000" />
     </task>
     <servers />
   </component>
