@@ -1,13 +1,13 @@
 -- noinspection SqlNoDataSourceInspectionForFile
 
 -- Insertar datos en la tabla Category
-INSERT INTO Category (category_id, name) VALUES
+INSERT INTO Category (categoryId, name) VALUES
                                             (1, 'Electrónicos'),
                                             (2, 'Ropa'),
                                             (3, 'Libros');
 
 -- Insertar datos en la tabla Product
-INSERT INTO Product (name, description, cantidad, price, category_id) VALUES
+INSERT INTO Product (name, description, cantidad, price, categoryID) VALUES
                                                                          ('Laptop', 'Laptop de última generación', 5, 1200.00, 1),
                                                                          ('Smartphone', 'Smartphone con cámara de alta resolución', 10, 800.00, 1),
                                                                          ('Camisa', 'Camisa casual para hombres', 20, 50.00, 2),
